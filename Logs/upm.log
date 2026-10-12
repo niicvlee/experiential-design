@@ -1,0 +1,45 @@
+[2026-10-12T09:26:53.609Z][INFO] Command-line: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager server -s 90298 --ipc-path /tmp/Unity-Upm-90298.sock -l 2 --log-file /Users/nicoleng/Experiential_Design/Logs/upm.log
+[2026-10-12T09:26:53.628Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-90298.sock).
+[2026-10-12T09:26:53.628Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-90298.
+[2026-10-12T09:26:55.388Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T09:26:55.443Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-12T09:26:55.585Z][INFO] config:project:get-registries --> 200 (142 ms)
+[2026-10-12T09:26:55.610Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-12T09:26:55.612Z][INFO] project:list-packages --> 200 (224 ms)
+[2026-10-12T09:26:56.133Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T09:26:56.268Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-12T09:26:56.280Z][INFO] project:list-packages --> 200 (147 ms)
+[2026-10-12T09:26:58.979Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T09:26:59.027Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T09:26:59.067Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-12T09:26:59.078Z][INFO] project:list-packages --> 200 (99 ms)
+[2026-10-12T09:26:59.161Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-12T09:26:59.165Z][INFO] project:list-packages --> 200 (138 ms)
+[2026-10-12T09:26:59.168Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T09:26:59.218Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-12T09:26:59.226Z][INFO] config:project:get-registries --> 200 (8 ms)
+[2026-10-12T09:26:59.269Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-12T09:26:59.310Z][INFO] project:list-packages --> 200 (141 ms)
+[2026-10-12T09:27:01.375Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T09:27:01.946Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-12T09:27:01.965Z][INFO] project:list-packages --> 200 (590 ms)
+[2026-10-12T09:27:03.370Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.ptc.vuforia.engine"
+}
+[2026-10-12T09:27:04.107Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-12T09:27:04.806Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.6@0.0.94] from registry 'https://packages.unity.com'
+[2026-10-12T09:27:05.249Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.6@0.0.94] from registry 'https://packages.unity.com' (size: 11.5 kB, time: 442ms)
+[2026-10-12T09:27:05.607Z][INFO] packages:get-packageinfo --> 200 (2237 ms)
+[2026-10-12T09:27:06.545Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-12T09:27:06.551Z][INFO] project:list-packages --> 200 (2444 ms)
+[2026-10-12T09:32:05.834Z][INFO] Received shutdown request (SIGTERM), shutting down Unity Package Manager
